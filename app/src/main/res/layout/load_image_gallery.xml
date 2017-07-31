@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnLoadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="SELECT IMAGE FROM GALLERY"
+        android:onClick="loadImageFromGallery"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textColor="#43C398"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/imageLoad"
+        android:layout_below="@id/btnLoadImage"
+        android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
